@@ -1,0 +1,169 @@
+{
+  "ExpressionLimit": {"Type": "First"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [{
+    "expression": {"items": [
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287620,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1666800",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "5 ML Midazolam 1 MG/ML Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287573,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1666549",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Magnesium Sulfate 100 MG Oral Capsule",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287424,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1665461",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "1 ML Ketorolac Tromethamine 30 MG/ML Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287345,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1665060",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Cefazolin 2000 MG Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287338,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1665050",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Cefazolin 1000 MG Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46287338,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1665050",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "Cefazolin 1000 MG Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      },
+      {
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 46275507,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "1659263",
+          "VOCABULARY_ID": "RxNorm",
+          "CONCEPT_NAME": "1 ML heparin sodium, porcine 5000 UNT/ML Injection",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": true,
+        "includeDescendants": true
+      }
+    ]},
+    "name": "XLH_Drug",
+    "id": 1
+  }],
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugExposure": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "DrugSourceConcept": null,
+      "CodesetId": 1,
+      "DrugTypeExclude": false,
+      "Quantity": null,
+      "DrugType": null,
+      "ProviderSpecialty": null,
+      "EffectiveDrugDose": null,
+      "Gender": null,
+      "DaysSupply": null,
+      "DoseUnit": null,
+      "VisitType": null,
+      "Refills": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "RouteConcept": null,
+      "StopReason": null,
+      "LotNumber": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
